@@ -1,0 +1,13 @@
+function [nbSucces]=Loi_Binomiale(n,p)
+
+nbSucces = 0;
+
+for i = 1 : n
+    
+if rand < p
+    nbSucces = nbSucces + 1;
+end
+    
+end 
+
+end
